@@ -82,6 +82,7 @@ section h2 {
   text-align: center;
 }
 
+
 .center {
   display: block;
   margin-left: auto;
@@ -92,10 +93,10 @@ section h3 {
   text-align: center;
 }
 
-.cent {
+/* .cent {
   display: block;
   text-align: center;
-}
+} */
 
 section h4 {
   text-align: center;
@@ -105,3 +106,11 @@ section h5 {
   text-align: center;
 }
 
+/* a[href="https://www.youtube.com/channel/UCMJcpiHFEuuLOAfW_IgEZlA" , href="https://www.linkedin.com/in/md-ashikul-islam-07/" ,href="http://www.instagram.com/dhattarwalaman"] {
+display :block;
+text-align: center; 
+} */
+
+h4{
+  text-align: center;
+}
