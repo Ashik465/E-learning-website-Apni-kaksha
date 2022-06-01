@@ -29,8 +29,15 @@ nav a {
   padding: 20px;
   text-align: center;
   float: left;
-  color: white;
+  color:white;
 }
+
+
+ nav a:hover {
+  color: aqua;
+}
+ 
+
 
 main {
   background-color: white;
@@ -114,3 +121,4 @@ text-align: center;
 h4{
   text-align: center;
 }
+
