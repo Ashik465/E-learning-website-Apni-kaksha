@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>payment form</title>
+    <link rel="stylesheet" href="paymentstyle.css" />
+  </head>
+  <body>
+    <h1 class="heading">payment form</h1>
+    <div class="container">
+      <form action="">
+        <h2>Contact information</h2>
+        <p>
+          Name: *
+          <input
+            type="text"
+            name="name "
+            id="name"
+            required
+            placeholder="Ashikul Islam"
+          />
+        </p>
+        <fieldset>
+          <legend>Gender</legend>
+          <p>
+            male <input type="radio" name="gender" id="male" /> female
+            <input type="radio" name="gender" id="female" />
+          </p>
+        </fieldset>
+        <p>
+          Address:
+          <textarea name="adress" id="adress" cols="100" rows="8"></textarea>
+        </p>
+        <p>
+          Email: *<input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder="ask@gmail.com "
+          />
+        </p>
+
+        <p>
+          pincode: *<input
+            type="number"
+            name="number"
+            id="number"
+            required
+            placeholder="1235"
+          />
+        </p>
+
+        <p>Course Name : <input type="text" name="course " id="course " /></p>
+        <h1>Payment information</h1>
+
+        <p>
+          card type :
+          <select name="" id="">
+            <option value="">select a card type</option>
+            <option value="debt ">Debt</option>
+            <option value="credit">Credit</option>
+            <option value="visa">Master</option>
+          </select>
+        </p>
+
+        <p>
+          card number:
+          <input
+            type="number"
+            name="card number"
+            id="card number "
+            placeholder="567894567"
+          />
+        </p>
+        <p>
+          experation date:
+          <input type="date" name="experation date" id="experation date" />
+        </p>
+        <p>
+          CVV: <input type="password" name="cvv" id="cvv" placeholder="5566" />
+        </p>
+        <input type="submit" value="pay now" />
+      </form>
+    </div>
+  </body>
+</html>
