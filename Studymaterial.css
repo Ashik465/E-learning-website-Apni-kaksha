@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+
+
+.flex1 div{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex2 div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.parent div{
+
+    width: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    /* border: 1px solid pink;
+     box-shadow: 2px 3px 4px 1px; */
+     background-color: white;
+     margin-right: 30px;
+    
+}
+
+
+.parent div{
+    /* position:relative; */
+    /* -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px bisque inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px bisque inset; */
+            box-shadow:0 10px 10px 5px rgba(0, 0, 0, 0.3), 0 0 40px white inset;
+
+}
+
+
+.child img {
+    height: 200px;
+    width: 100%;
+    border-radius: 0px;
+    /* border: 1px solid black; */
+/* box-shadow: 1px 2px 3px 0px; */
+}
+
+.child h1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 7, 7);
+    padding-left: 5px;
+    text-align: center;
+    font-size: 1.8rem;
+    
+}
+
+.child p {
+    background-color: rgb(255, 255, 255);
+text-align: center;
+padding: 5px;
+font-size: 1rem;
+}
+
+
+.child button {
+    font-size: 15px;
+     border: none;
+     padding: 10px;
+margin-bottom: 15px;
+background-color: black;
+color: white;
+text-align: center;
+width: 80%;
+
+}
+
+button:hover {
+    background-color: rgb(21, 83, 83);
+}
+
+
+/* for the heading css part ;;;;;;;;;;;;;;;; */
+
+nav {
+    background-color: black;
+    /* padding: 20px; */
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+nav a {
+    /* position: sticky; */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 20px;
+    font-size: large;
+    display: block;
+    background-color: black;
+    margin-left: 0px;
+
+}
+
+nav a:hover {
+     color:black;
+     padding: 15px;
+     background-color:white;
+     border-radius: 5px;
+
+}
+
+
+.position {
+ position:absolute ;
+ top: 0;
+ left: 0;
+ 
+ width: 100%;
+ 
+} 
+
+
+.space{
+    margin-top: 40px;
+}
