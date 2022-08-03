@@ -5,11 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apni kaksha | Home</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="New folder/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="New folder/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="New folder/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="New folder/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <script src="https://kit.fontawesome.com/fa22f1dec1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>Apni kaksha</h1>
+      <div class="banner"></div>
     </header>
     <nav>
       <a href="#">Home</a>
@@ -17,138 +40,114 @@
       <a href="courses.html">Courses</a>
       <a href="Studymaterial.html">Study Materials</a>
       <a href="payment.html">Purchase course </a>
-      <a href="#">Signup\login</a>
+      <a href="#" class="navright">Signup\login</a>
     </nav>
     <section>
-      <h2>Courses</h2>
-      <iframe
-        width="33%"
-        src="https://www.youtube.com/embed/yRpLlJmRo2w"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-        width="33%"
-        src="https://www.youtube.com/embed/j0biLzzJ2XQ"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-        width="33%"
-        src="https://www.youtube.com/embed/I5srDu75h_M"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <br />
-      <br />
-      <br />
-      <iframe
-        width="33%"
-        src="https://www.youtube.com/embed/bQssdSrSGNE"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-        width="33%"
-        src="https://www.youtube.com/embed/AgyTHzjBS-c"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-
-      <iframe
-        width="33%"
-        src="https://www.youtube.com/embed/z9bZufPHFLU"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+      <h2><span>Courses</span></h2>
+      
+      <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"><video src="video/How much Coding to learn for Placements_ Data Structure & Algorithms.mp4" poster="video/poster/New folder/webdev.png"  controls></video></div>
+  <div class="carousel-cell"><video src="video/Basics of Time Complexity and Space Complexity _ Java _ Complete Placement Course _ Lecture 9.mp4" poster="video/poster/New folder/12.jpg"  controls></video></div>
+  <div class="carousel-cell"><video src="video/Conditional Statements _ If-else, Switch Break _ Complete Java Placement Course _ Lecture 3.mp4"  poster="video/poster/New folder/cpp.jpg" controls></video></div>
+  <div class="carousel-cell"><video src="video/DTU College Review _ All about DTU _ In Depth Review by Aman Dhattarwal.mp4"  poster="video/poster/New folder/electrochemistry.jpg" controls></video></div>
+  <div class="carousel-cell"><video src="video/1. Introduction to C++ _ Data Structures and Algorithms _ College Placement Course _ Lecture 1.mp4" poster="video/poster/New folder/maxresdefault.jpg"  controls></video></div>
+  <div class="carousel-cell"><video src="video/Introduction to Java Language _ Lecture 1 _ Complete Placement Course.mp4"  poster="video/poster/New folder/python-lec1.jpg" controls></video></div>
+</div>
     </section>
     <section>
-      <h2>College Reviews</h2>
-      <iframe
-        width="33%"
-        height="75%"
+      <h2><span>College Reviews</span></h2>
+
+      <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="   carousel-cell   iframe-container "><iframe
+      
         src="https://www.youtube.com/embed/1VfqlKtVF7U"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
-      <iframe
-        width="33%"
-        height="75%"
+      ></iframe></div>
+  <div class="   carousel-cell   iframe-container"><iframe
+        
         src="https://www.youtube.com/embed/zGJ5BlbKfLM"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
-      <iframe
-        width="33%"
-        height="75%"
+      ></iframe></div>
+  <div class="   carousel-cell   iframe-container"><iframe
+        
         src="https://www.youtube.com/embed/j0biLzzJ2XQ"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen
-      ></iframe>
+      ></iframe></div>
+  
+      
+      
     </section>
     <section>
-      <h2>Study matarials</h2>
-      <a target="_blank" href="New folder/IUB__Internship_Report Ashik.pdf">
-        <img src="New folder/Ashik.png" alt="" width="24%" height="60%" />
-      </a>
-      <a target="_blank" href="New folder/Final_Report_ Badhon.pdf">
-        <img src="New folder/Ashik.png" alt="" width="24%" height="60%" />
-      </a>
-      <a target="_blank" href="New folder/Sadman.pdf">
-        <img src="New folder/Ashik.png" alt="" width="24%" height="60%" />
-      </a>
-      <a target="_blank" href="New folder/Habib_Internship_Final_Report.pdf">
-        <img src="New folder/Ashik.png" alt="" width="24%" height="60%" />
-      </a>
+      <h2><span>Study matarials</span></h2>
+
+      <div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"><a target="_blank" href="New folder/IUB__Internship_Report Ashik.pdf">
+        <img class="imgresponsive"  src="New folder/Ashik.png" alt=""  />
+      </a></div>
+  <div class="carousel-cell"><a target="_blank" href="New folder/Final_Report_ Badhon.pdf">
+        <img class="imgresponsive" src="New folder/Ashik.png" alt=""  />
+      </a></div>
+  <div class="carousel-cell"><a target="_blank" href="New folder/Sadman.pdf">
+        <img class="imgresponsive" src="New folder/Ashik.png" alt=""  />
+      </a></div>
+  <div class="carousel-cell"><a target="_blank" href="New folder/Habib_Internship_Final_Report.pdf">
+        <img class="imgresponsive" src="New folder/Ashik.png" alt=""  />
+      </a></div>
+  
+</div>
+
+
+      
+      
+      
+      
     </section>
 
     <section>
-      <h2>The website creator</h2>
-      <img
+      <h2 class="website"><span>The website creator</span></h2>
+      <img class="profile"
         src="New folder/Ashik pic.JPG"
         alt="This is Ashik"
         width="16%"
         height="16%"
         class="center"
       />
-      <h3>MD Ashikul Islam</h3>
-      <h4><a
-        target="_blank"
-        href="https://www.youtube.com/channel/UCMJcpiHFEuuLOAfW_IgEZlA"
-        >Youtube</a
-      >&nbsp;&nbsp;|&nbsp;&nbsp;
-      <a
-        href="https://www.linkedin.com/in/md-ashikul-islam-07/"
-        target="_blank"
-        rel="noopener noreferrer"
-        >LinkedIn</a
-      >&nbsp;&nbsp;|&nbsp;&nbsp;
-      <a
-        href="https://github.com/Ashik465"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Github</a
-      ></h4>
-
-      <h4>
+      <h3 class="profilename">MD Ashikul Islam</h3>
+      <div class="icon"><h4>
+        <a class="youtube"
+          target="_blank"
+          href="https://www.youtube.com/channel/UCMJcpiHFEuuLOAfW_IgEZlA"
+          > <i class="fa-brands fa-youtube fa-lg youtube"></i>  Youtube</a
+        >&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a class="linkedin"
+          href="https://www.linkedin.com/in/md-ashikul-islam-07/"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-linkedin fa-lg linkedin"></i>LinkedIn</a
+        >&nbsp;&nbsp;|&nbsp;&nbsp;
+        <a class="github"
+          href="https://github.com/Ashik465"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-github fa-lg github"></i>Github</a
+        >
+      </h4>
+</div>
+<div class="about">
+      <h4 class="title">
         Young TEDx speaker and #1 Online JEE Educator | Founder of 5 YouTube
         Channels with 2.5 million young hustlers.
       </h4>
-      <h5>
+      <h5 class="content">
         I help students across India find their right career path. I have been a
         guest speaker at 22 Colleges including Top IITs, BITS Pilani, IIIT's,
         NIT's, SRCC, Jadavpur University etc. I am the #1 Educator of JEE on
@@ -159,7 +158,7 @@
         leader of the world with the maximum young workforce, but for this, we
         need some good pilots who can take us through this. I help these young
         hustlers find their true potential so that they can fly us to victory.
-      </h5>
+      </h5></div>
     </section>
 
     <footer>
@@ -171,5 +170,7 @@
       <a href="complain.html">Complain</a>
       <a href="#">&copy; 2020 | Apni Kaksha</a>
     </footer>
+    <!-- JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   </body>
 </html>
